@@ -1,0 +1,9 @@
+/http://www.infotuts.com/send-html-form-data-json-via-ajax/
+%form{:name=>"myForm", :method=>"POST", :action=>"/food", :onsubmit=>"return ValidateForm()"}
+	%p Your Name:
+	%input{:type=>"text", :name=>"name", :required => false }
+	%p Your Email:
+	%input{:type=>"text", :name=>"email", :required => false}
+	%p Your Number: 
+	%input{:type=>"tel", :name=>"number"}
+	%input{:type=>"submit"}
